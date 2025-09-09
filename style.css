@@ -1,0 +1,259 @@
+.main-header
+{
+    text-align: center;
+    color: #000;
+    background-color: rgb(70, 157, 192);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular','Lucida Grande', 'Lucida Sans unicode';
+    font-size: 18px;
+    padding: 15px;
+    width: 100%;
+    box-sizing: border-box;
+}
+.main-header.logo{
+    width: 55px;
+    height: 55px;
+    padding: 8px 14px;
+    margin: 10 px 0;
+}
+.main-header.logo img{
+ border-radius: 5px;
+
+}
+.main-header.titles{
+    text-align: center;
+    font-family: 'Lucida Sanas','Lucida Sans Regular', 'Lucida Sans Unicode';
+    font-size: 30px;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.main-header.titles h1 {
+    color: tomato;
+}
+.bgimage{
+    background-image:url("../images/.logo2.jpg");
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position: center;
+    text-align: center;
+
+}
+.maincomponent{
+    display: flex;
+    border: 2px solid black;
+}
+.box{
+    width: 1500px;
+    height: 800px;
+    border-radius: 5px;
+    text-align: center; 
+    font-size: 2em;
+    transition-delay: 1s;                     
+}
+#box1{
+    background-color: rgb(190, 10,34);
+    transition: 2s;
+    transition-timing-function: ease-out;
+}
+#box1:hover{
+    background-color: rgb(151, 206, 29);
+    transition: 2s;
+    transition-timing-function: ease-out;
+}
+#box2{
+    background-color:rgb(151, 206, 29);
+    transition:2s;
+    transition-timing-function:ease-out;
+}
+#box2:hover{
+    background-color: aqua;
+    width:500px
+}
+#box3{
+    background-color: rgb(13, 209, 29);
+    transition: 2s;
+    transition-timing-function:ease-in-out;
+}
+#box3:hover{
+    background-color: blueviolet;
+    width: 500px;
+}
+#box4{
+    background-color: rgb(135, 124, 145);
+    transition: width 2s;
+    transition-timing-function:ease-in;
+}
+#box4:hover{
+    background-color:#c01238;
+    width:500px;
+}
+ .h1{
+    background-color: aqua;
+  color: #000
+ }
+.profiledata1{
+    color:blue;
+}
+.profiledata2{
+    color: blueviolet;
+}
+#profiledata{
+    background-color: rgb(243, 161, 8);
+    color:#c01238
+}
+.newrotate{
+    width: 150px;
+    height:150px;
+    border-radius: 15px;
+    background-color:#c01238;
+    transition: width 2s, height 2s, transform 2s;
+}
+#newrotate:hover{
+    width:250px;
+    height:250px;
+    transform: rotate(180deg);
+}
+ 
+
+@keyframes animid{
+    from{background-color: blueviolet;}
+    to{background-color: blue}
+}
+.animi
+{
+    width:160px;
+    height:160px;
+    background-color: #c01238;
+    animation: animid;
+    animation-duration:2s;
+}
+.scrolltext
+{
+    font-family: 'Lucida Sans';
+    font-style: italic;
+    font-size: 25px;
+    width:100%;
+    white-space: nowrap;
+    color:#c01238;
+    overflow: hidden;
+    box-sizing: border-box;
+    border: 2px solid red;
+}
+@keyframes scrollleft{
+    from{ transform: translate(100%);}
+    to{ transform: transate(-100%);}
+}
+
+.scrolltext span
+{
+    display: inline-block;
+    padding-left: 100%;
+    animation: scrollleft 5s inear infinite;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
